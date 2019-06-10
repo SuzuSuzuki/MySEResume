@@ -6,13 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+
+    <Button
+        android:id="@+id/deveExBtn"
+        android:layout_width="390dp"
+        android:layout_height="250dp"
+        android:background="#008cff"
+        android:onClick="deveExBtn_onClick"
+        android:text="開発経験"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@id/qualBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/qualBtn"
+        android:layout_width="390dp"
+        android:layout_height="250dp"
+        android:background="#ffa500"
+        android:text="資格一覧"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/deveExBtn" />
 </android.support.constraint.ConstraintLayout>
