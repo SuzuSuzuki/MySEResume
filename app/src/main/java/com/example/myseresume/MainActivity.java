@@ -17,4 +17,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,com.example.myseresume.DeveExList.class);
         startActivity(i);
     }
+
+    public void qualListBtn_onClick(View v){
+        Intent i = new Intent(this,com.example.myseresume.QualList.class);
+        startActivity(i);
+    }
 }

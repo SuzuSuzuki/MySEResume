@@ -25,6 +25,7 @@
         android:layout_width="390dp"
         android:layout_height="250dp"
         android:background="#ffa500"
+        android:onClick="qualListBtn_onClick"
         android:text="資格一覧"
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
